@@ -21,6 +21,6 @@ public:
 	int getOldY() const { return m_oldy; }
 	char getSymbol() const { return m_symbol; }
 
-	virtual void move() {}
+	virtual void move() = 0;
 };
 
